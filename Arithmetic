@@ -1,0 +1,25 @@
+package practicetests;
+
+import java.util.Scanner;
+
+public class Arithmetic {
+	public static void main(String[] args) {
+		
+	Scanner scanner = new Scanner(System.in);
+	System.out.println("Enter your input:");
+	
+	int input = scanner.nextInt();
+	
+	int square = input * input;
+	int cube = input * input * input;
+	int fourth = square * square;
+		
+	scanner.close();
+	
+	System.out.println("square" + square);
+	System.out.println("cube" + cube);
+	System.out.println("fourth" + fourth);
+	}
+	
+
+}
