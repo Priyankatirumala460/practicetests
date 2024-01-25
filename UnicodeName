@@ -1,0 +1,19 @@
+package practicetests;
+
+public class UnicodeName { 
+	public static void main(String[] args) {
+		
+		char char0 = '\u0c01';
+		char char1 = '\u0C2A';
+		char char2 = '\u0c3F';
+		char char3 = '\u0c2F';
+		char char4 = '\u0c42';
+		char char5 = '\u0c66';
+		char char6 = '\u0c15';
+		
+		System.out.println(char0+""+char1 +""+char2+""+char3+""+char4+""+char5+""+char6);
+	
+	
+	}
+
+}
