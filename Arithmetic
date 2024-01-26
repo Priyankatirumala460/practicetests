@@ -6,6 +6,8 @@ public class Arithmetic {
 	public static void main(String[] args) {
 		
 	Scanner scanner = new Scanner(System.in);
+	
+	while (true) {
 	System.out.println("Enter your input:");
 	
 	double input = scanner.nextDouble();
@@ -14,12 +16,11 @@ public class Arithmetic {
 	double cube = input * input * input;
 	double fourth = square * square;
 		
-	scanner.close();
 	
 	System.out.println("square" + square);
 	System.out.println("cube" + cube);
 	System.out.println("fourth" + fourth);
 	}
-	
+	}	
 
 }
