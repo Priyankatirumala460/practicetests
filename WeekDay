@@ -1,0 +1,43 @@
+package practicetests;
+
+import java.util.Scanner;
+
+public class WeekDay {
+
+	public static void main(String[] args) {
+		
+		Scanner number = new Scanner(System.in);
+		System.out.println("Enter the daynumber");
+		int day =number.nextInt();
+		number.close();
+		
+		switch(day) {
+		case 7://"Mon"
+			System.out.println("monday");
+			break;
+		case 1://"Tue"
+			System.out.println("tuesday");
+			break;
+		case 2:	//"Wed"
+			System.out.println("wednesday");
+			break;
+		case 3: //"Thu"
+			System.out.println("thursday");
+			break;
+		case 4:	//"Fri"
+			System.out.println("friday");
+			break;
+		case 5:	//"Sat"
+			System.out.println("saturday");
+			break;
+		case 6: //"Sun"	
+			System.out.println("sunday");
+		break;
+		default:
+			System.out.println("Invalid dayname");
+			break;
+			
+		}	
+	
+	}
+}
