@@ -1,0 +1,40 @@
+package practicetests;
+
+import java.util.Scanner;
+
+public class MaximumOf {
+
+	public static void main(String[] args) {
+		
+		Scanner number = new Scanner(System.in);
+		System.out.println("Enter 3 digits");
+		
+		int value = number.nextInt();
+		int value2 = number.nextInt();
+		int value3 = number.nextInt();
+		number.close();
+		
+		if(value > value2 && value > value3) {
+			System.out.println("highest of three numbers is " +value);
+			
+		}else if(value2 > value && value2 > value3){
+				
+				System.out.println("highest of three numbers is " +value2);
+	
+			}else if (value3 > value && value3 > value2) {
+						System.out.println("highest number is " + value3);
+	
+			}
+			else {
+				System.out.println("All 3 numbers are equal");
+			}
+	
+	}
+}
+
+
+	
+
+		
+
+
