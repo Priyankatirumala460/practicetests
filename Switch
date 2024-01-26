@@ -1,7 +1,7 @@
 package practicetests;
 import java.util.Scanner;
 
-public class IfElse {
+public class Switch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
