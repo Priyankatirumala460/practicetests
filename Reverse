@@ -1,0 +1,24 @@
+package practicetests;
+
+import java.util.Scanner;
+
+public class Reverse {
+
+	public static void main(String[] args) {
+	
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter your input");
+		int input = scanner.nextInt();
+
+     int x = 0; 
+	 int y;
+
+	while (input > 0) { 
+			y = input % 10; 
+			x = (x * 10) + y; 
+			input = input / 10; 
+			}
+	System.out.println("Reverse Number is " +x);
+	scanner.close();
+	}
+}
