@@ -1,0 +1,22 @@
+package practicetests;
+
+public class PrimeNumber {
+
+    public static void main(String[] args) {
+
+        int count = 0;
+        int i = 2; 
+
+        System.out.println("First 20 prime numbers:");
+
+        while (count < 20) {
+            if (i==2 ||(i%2)!=0){
+                System.out.print(i + " ");
+                count++;
+            }
+            i++;
+        }
+    }
+}
+
+
