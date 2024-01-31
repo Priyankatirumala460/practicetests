@@ -5,28 +5,28 @@ import java.util.Scanner;
 public class Assignment{
  public static void main(String[] args){
 
-Scanner value = new Scanner(System.in);
+Scanner input = new Scanner(System.in);
 
 while(true) {
 	
 System.out.println("Enter your input");
 
-int input = value.nextInt();
-int input2 = value.nextInt() ;
+int inputNumber1 = value.nextInt();
+int inputNumber2 = value.nextInt() ;
  
-int sum = input + input2;
+int sum = inputNumber1 + inputNumber2;
 System.out.println("sum" +sum);
 
-int diff = input - input2;
+int diff = inputNumber1 - inputNumber2;
 System.out.println("diff"+diff);
 
-  if (input > input2 ) {
-System.out.println("max" +input);
-System.out.println("min"+input2);
+  if (inputNumber > inputNumber2 ) {
+System.out.println("max" +inputNumber1);
+System.out.println("min"+inputNumber2);
 
   }else {
-	  System.out.println("min"+input);
-	  System.out.println("max"+input2);
+	  System.out.println("min"+inputNumber1);
+	  System.out.println("max"+inputNumber2);
 	  
   }
   
