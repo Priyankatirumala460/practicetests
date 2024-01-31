@@ -9,20 +9,20 @@ public class MaximumOf {
 		Scanner number = new Scanner(System.in);
 		System.out.println("Enter 3 digits");
 		
-		int value = number.nextInt();
-		int value2 = number.nextInt();
-		int value3 = number.nextInt();
+		int inputNumber1 = number.nextInt();
+		int inputNumber2 = number.nextInt();
+		int inputNumber3 = number.nextInt();
 		number.close();
 		
-		if(value > value2 && value > value3) {
-			System.out.println("highest of three numbers is " +value);
+		if(inputNumber1 > inputNumber2 && inputNumber2 > inputNumber3) {
+			System.out.println("highest of three numbers is " +inputNumber1);
 			
-		}else if(value2 > value && value2 > value3){
+		}else if(inputNumber2 > inputNumber1 && inputNumber2 > inputNumber3){
 				
-				System.out.println("highest of three numbers is " +value2);
+				System.out.println("highest of three numbers is " +inputNumber2);
 	
-			}else if (value3 > value && value3 > value2) {
-						System.out.println("highest number is " + value3);
+			}else if (inputNumber3 > inputNumber1 && inputNumber3 > inputNumber2) {
+						System.out.println("highest number is " + inputNumber3);
 	
 			}
 			else {
