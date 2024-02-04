@@ -10,7 +10,7 @@ public class BreakLoop {
 	        while (true) {
 	            System.out.print("Enter a number: ");
 	            int i = scanner.nextInt();
-	            if (i < 10) {
+	            if (i < 0) {
 	                System.out.println("Exit the loop");
 	                break;
 	            }
