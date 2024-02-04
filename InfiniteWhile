@@ -1,0 +1,16 @@
+package practicetests;
+
+public class InfiniteWhile {
+	
+	    public static void main(String[] args) {
+	        while (true) {
+	            
+	        	int x=10;
+	        	int y=20;
+	        	int z = x+y;
+	            System.out.println("This is an infinite loop ");
+	        }
+	    }
+	}
+
+
