@@ -1,0 +1,24 @@
+package practicetests;
+
+import java.util.Scanner;
+
+public class Temparature {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            System.out.println("Enter temperature in Kelvin: ");
+            double kelvin = scanner.nextDouble();
+
+            double fahrenheit = (1.8) * kelvin - 459.67;
+            double celsius = kelvin - 273.15;
+
+            System.out.println("Temperature in Fahrenheit: " + fahrenheit);
+            System.out.println("Temperature in Celsius: " + celsius);
+        
+           
+        }
+          
+    }
+}
